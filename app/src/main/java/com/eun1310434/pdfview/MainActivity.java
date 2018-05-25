@@ -1,9 +1,19 @@
-/**
- * 02.03.2018
- * eun1310434@naver.com
- * https://blog.naver.com/eun1310434
- * 참고) Do it android programming
- */
+/*=====================================================================
+□ Infomation
+  ○ Data : 25.05.2018
+  ○ Mail : eun1310434@naver.com
+  ○ Blog : https://blog.naver.com/eun1310434
+  ○ Reference : Do it android app Programming
+
+□ Function
+  ○
+
+□ Study
+  ○ Intent
+     - An Intent provides a facility for performing late runtime binding between the code in different applications.
+       Its most significant use is in the launching of activities, where it can be thought of as the glue between activities.
+       It is basically a passive data structure holding an abstract description of an action to be performed.s
+=====================================================================*/
 
 package com.eun1310434.pdfview;
 
@@ -28,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         editText = (EditText) findViewById(R.id.editText);
+        editText.setText("PDF INTENT.pdf");
     }
 
     public void onButton1Clicked(View v) {
@@ -56,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "There is no PDF File Viewer APP", Toast.LENGTH_SHORT).show();
             }
         } else {
-            Toast.makeText(this, "NO PDF File", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "NO PDF File : "+fileDir, Toast.LENGTH_SHORT).show();
         }
     }
 
