@@ -15,8 +15,9 @@ Implicit intents do not name a specific component, but instead declare a general
 
 ScreenShots
 -----------
+<img width="400" src="https://user-images.githubusercontent.com/32612534/40550079-729944ae-6039-11e8-9470-ec0de4fba3d8.png">
+
 <div>
-<img width="200" src="https://user-images.githubusercontent.com/32612534/40550079-729944ae-6039-11e8-9470-ec0de4fba3d8.png">
 <img width="200" src="https://user-images.githubusercontent.com/32612534/40550081-73fb6732-6039-11e8-8930-93997cf01a0a.png">
 <img width="200" src="https://user-images.githubusercontent.com/32612534/40550082-74dbbecc-6039-11e8-8bf7-af011dfc70a8.png">
 </div>
